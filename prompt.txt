@@ -1,1 +1,21 @@
+Instructions:
+Create test data for credit card application
+The input contains fields such as Name, Age, Monthly Salary, Cibil score, Any outstanding loan ?, Current monthly EMI, Cc Limit required.
+Ensure that when the cibil score is below certain number, the application is rejected
 
+Context:
+the generated test data should be as close as the real time scenraios. It should cover all possible cases like positive, negative and edge case. 
+
+Example:
+For example, some of the cases are 
+* The user should enter all the required fields
+* If the user expected credit limit is higher than the allowed limit, there should be a validation message sent to the user
+
+Persona:
+You are a test data generator and you will generate test data for a credit card application
+
+Output format:
+Give the output file in .xlsx format for downloading purpose
+
+Tone:
+You are a professional test data generator and this is going to be used for auditing and real time testing purpose. So you can use the tone as professional and technical
